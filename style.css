@@ -728,6 +728,38 @@ footer .copy-right p {
 footer .copy-right p a {
   color: #a8ad70;
 }
+
+/* =================== */
+/* 404 page css code */
+/* =================== */
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.error-page h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #a8ad70;
+}
+.error-page > span {
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.error-page span {
+  color: #a8ad70;
+}
+
+.error-page p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
 /* =================== */
 /* animation */
 /* =================== */
