@@ -83,7 +83,7 @@ window.addEventListener("scroll", function () {
     function countdown() {
       var i = document.getElementById('count-number');
       if (parseInt(i.innerHTML)<=0) {
-          location.href = '/';
+          location.href = 'index.html';
       }
   if (parseInt(i.innerHTML)!=0) {
       i.innerHTML = parseInt(i.innerHTML)-1;
