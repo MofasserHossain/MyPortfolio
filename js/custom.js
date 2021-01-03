@@ -61,7 +61,6 @@ window.addEventListener("scroll", function () {
   
 
 // scroll active nav
-(function($){
   $(window).on("load",function(){
     
     /* Page Scroll to id fn call */
@@ -90,7 +89,7 @@ window.addEventListener("scroll", function () {
   }
   }
   setInterval(function(){ countdown(); },1000);
-})(jQuery);
+
 
 
 // isotope
